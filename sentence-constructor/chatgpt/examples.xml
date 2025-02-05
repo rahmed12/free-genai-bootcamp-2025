@@ -1,0 +1,80 @@
+
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>4</score>
+    <score_reasons>
+    - BAD: in the vocabulary table it did not show the Sylheti Bengali characters, the cells are just blank
+    - BAD: word in wrong transliterations column
+    - BAD: transliterations in wrong Type column
+    - BAD: Type missing
+    - BAD: the beginner sentence is unnecessary, should just start showing the vocabulary table
+    - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
+    - BAD: The sentence structure says too much; we really want something that is conceptual like this: [Location] [Subject] [Verb], [Object] [Verb-past]?
+    </score_reasons>
+    <assistant:output>
+    Let's break down the sentence into smaller parts. Here's a possible table of vocabulary to get you started:
+
+    | Word | Sylheti Bengali | transliterations| Type |
+    |----------------|--------------|---------|
+    | | |  bear | bhaluk |
+    | | | door |  dorza |
+    | | |  garbage | aborjona |
+    | | | leave behind |  rakha |
+
+    Now, let's think about the sentence structure. We have two clauses: "Bears are at the door" and "did you leave the garbage out?".
+    For the first clause, we can use the verb (থাকা) which means "to exist" or "to be present." We'll need to figure out the correct form of the verb to use.
+    For the second clause, we can use the verb (রাখা) which is a more direct way of saying "to leave behind." Again, we'll need to figure out the correct form of the verb to use.
+
+    Here's a possible sentence structure:
+
+    **[Clause 1: Bears are at the door]**  
+    **[Subject] [Location] [Verb]**  
+
+    **[Clause 2: Did you leave the garbage out?]**  
+    **[Object] [Verb-past]?**
+
+    Your turn! Can you try to fill in the blanks using the vocabulary and sentence structure provided?
+    </assistant:output>
+</example>
+
+
+
+<example>
+    <user:input>
+        Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>10</score>
+    <score_reasons>
+    - GOOD: Doesn't provide verbose text at the start, and shows vocabulary immediately
+    - GOOD: Shows conceptual sentence structure
+    - GOOD: Clues don't give away any of the tense or conjugations
+    - GOOD: Gives the transliterations
+    </score_reasons>
+    <assistant:output>
+    Cheatsheet:
+    | Word | Sylheti Bengali | transliterations| Type |
+    |------|----------------|------|
+    | bear | ভালুক | bhaluk | Noun |
+    | door | দরজা  | dorza | Noun |
+    | garbage | আবর্জনা |aborjona | Noun |
+    | to be (location) | থাকা  | thaa-ka | Intransitive Verb |
+    | to leave | রাখা | rakha | Transitive Verb |
+
+    Sentence structure:
+    [Subject] [Location] [Verb], [Subject] [Object] [Verb-Past]?
+
+    Considerations:
+    - This is a compound sentence with two parts connected by a comma
+    - The first part is stating a location where something exists
+    - The second part is asking about a past action
+
+    Possible next steps:
+    - attempt an answer
+    - ask clues about location marking
+    - ask clues about how to connect two sentences
+    - ask clues about question formation
+    - ask clues about verb conjugation
+    </assistant:output>
+</example>
