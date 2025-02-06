@@ -38,6 +38,55 @@
     Your turn! Can you try to fill in the blanks using the vocabulary and sentence structure provided?
     </assistant:output>
 </example>
+<example>
+    <user:input>
+        Did you see the cat this morning? They were looking at our garden.
+    </user:input>
+    <score>2</score>
+    <score_reasons>
+    - BAD: Vocabulary table is completely missing.
+    - BAD: The response jumps straight into a long explanation instead of showing structured steps.
+    - BAD: The sentence structure is incorrect and does not follow the expected conceptual format.
+    - BAD: Clues give away too much by directly translating large portions of the sentence.
+    - BAD: Does not use proper Sylheti Bengali script.
+    </score_reasons>
+    <assistant:output>
+    Let's start with understanding how to say this in Sylheti Bengali. 
+
+    First, "Did you see the cat this morning?" can be translated as:
+    তুমি আজ সকালত বিড়াল দেখিলা?
+
+    Next, "They were looking at our garden." can be translated as:
+    ওরা আমাদের বাগান দিকে তাকাইত আছিল।
+
+    The word for "cat" is বিড়াল, and "morning" is সকাল.
+
+    For asking "Did you see?", we use the verb দেখা, which means "to see." 
+
+    Try saying it out loud and see if you can recognize the words!
+    </assistant:output>
+</example>
+<example>
+    <user:input>
+        Did you see the cat this morning? They were looking at our garden.
+    </user:input>
+    <score>1</score>
+    <score_reasons>
+    - BAD: Does not provide a vocabulary table at all.
+    - BAD: Does not provide any sentence structure guidance.
+    - BAD: Gives a full translation immediately without engaging the student.
+    - BAD: Uses incorrect or unnatural Sylheti Bengali phrasing.
+    - BAD: No explanation of verb conjugation, word order, or grammar rules.
+    </score_reasons>
+    <assistant:output>
+    Here is your translation:
+
+    তুমি কি আজ সকালত বিড়াল দেখছ? ওরা আমাদের বাগানত তাকাইত আছিল।
+
+    Just memorize this, and you’ll be fine!
+    </assistant:output>
+</example>
+
 
 
 
@@ -76,5 +125,110 @@
     - ask clues about how to connect two sentences
     - ask clues about question formation
     - ask clues about verb conjugation
+    </assistant:output>
+</example>
+<example>
+    <user:input>
+        Did you see the cat this morning? They were looking at our garden.
+    </user:input>
+    <score>10</score>
+    <score_reasons>
+    - GOOD: Provides a structured vocabulary table with correct Sylheti Bengali script and transliterations.
+    - GOOD: Uses the correct column headings: Word, Sylheti Bengali, transliterations, Type.
+    - GOOD: Gives a conceptual sentence structure rather than a direct translation.
+    - GOOD: Clues guide the student without giving away verb conjugations or sentence structure.
+    - GOOD: Encourages student engagement by asking them to attempt the sentence first.
+    </score_reasons>
+    <assistant:output>
+    ### Vocabulary Table
+
+    | Word  | Sylheti Bengali | transliterations | Type |
+    |-------|----------------|------------------|------|
+    | cat   | বিড়াল         | biral           | Noun |
+    | morning | সকাল        | shokal          | Noun |
+    | to see | দেখা         | dekha           | Verb |
+    | they  | তারা         | tara            | Pronoun |
+    | garden | বাগান        | bagan           | Noun |
+    | to look at | তাকানো   | takano          | Verb |
+
+    ---
+
+    ### Sentence Structure
+
+    1. **[Subject] [Object] [Verb-Past]?**  
+       *(Did you see the cat this morning?)*  
+    2. **[Subject] [Object] [Verb-Past].**  
+       *(They were looking at our garden.)*
+
+    ---
+
+    ### Clues and Considerations
+
+    - For the first sentence:
+      - The question is in past tense. How will you conjugate the verb "to see" accordingly?
+      - "This morning" acts as a time marker. Where should it go in a Sylheti Bengali sentence?
+      - The sentence is a yes/no question. How is this formed in Sylheti?
+
+    - For the second sentence:
+      - "They" is the subject. Do you need to explicitly say "they," or can the verb imply it?
+      - The action "looking at" is continuous in English. How would this be formed in Sylheti?
+      - "Our garden" is the object. How do you show possession in Sylheti?
+
+    ---
+
+    Now it's your turn! Try forming the sentence using the vocabulary and structure provided.
+    </assistant:output>
+</example>
+<example>
+    <user:input>
+        The dog was barking loudly last night. Did you hear it?
+    </user:input>
+    <score>10</score>
+    <score_reasons>
+    - GOOD: Provides a structured vocabulary table with correct Sylheti Bengali script and transliterations.
+    - GOOD: Uses the correct column headings: Word, Sylheti Bengali, transliterations, Type.
+    - GOOD: Gives a conceptual sentence structure rather than a direct translation.
+    - GOOD: Clues guide the student without giving away verb conjugations or sentence structure.
+    - GOOD: Encourages student engagement by asking them to attempt the sentence first.
+    </score_reasons>
+    <assistant:output>
+    ### Vocabulary Table
+
+    | Word  | Sylheti Bengali | transliterations | Type |
+    |-------|----------------|------------------|------|
+    | dog   | কুকুর         | kukur           | Noun |
+    | to bark | ঘেউ ঘেউ করা | gheu gheu kora  | Verb |
+    | loudly | জোরে         | jore            | Adverb |
+    | night  | রাত          | raat            | Noun |
+    | last   | গত           | got             | Adjective |
+    | to hear | শোনা        | shona           | Verb |
+    | it     | ইতা         | ita             | Pronoun |
+
+    ---
+
+    ### Sentence Structure
+
+    1. **[Time] [Subject] [Adverb] [Verb-Past].**  
+       *(The dog was barking loudly last night.)*  
+    2. **[Subject] [Object] [Verb-Past]?**  
+       *(Did you hear it?)*  
+
+    ---
+
+    ### Clues and Considerations
+
+    - For the first sentence:
+      - "Last night" acts as a time marker. Where should it go in a Sylheti Bengali sentence?
+      - The verb "to bark" is a compound verb. How will you conjugate it in the past continuous?
+      - "Loudly" is an adverb. Where should it be placed in relation to the verb?
+
+    - For the second sentence:
+      - This is a yes/no question. How does Sylheti form yes/no questions?
+      - The verb "to hear" needs to be in the past tense. What would its correct form be?
+      - "It" is the object. Does it need to be explicitly stated, or can it be implied?
+
+    ---
+
+    Now it's your turn! Try forming the sentence using the vocabulary and structure provided.
     </assistant:output>
 </example>
